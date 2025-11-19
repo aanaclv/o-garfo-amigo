@@ -171,7 +171,7 @@ const Index = () => {
               <h3 className="text-lg font-semibold text-foreground mb-4">Recursos</h3>
               <ul className="space-y-2 text-muted-foreground">
                 <li><a href="/mapa-texturas" className="hover:text-primary transition-colors">Mapa de Texturas</a></li>
-                <li><a href="#" className="hover:text-primary transition-colors">Diário Alimentar</a></li>
+                <li><a href="/diario-alimentar" className="hover:text-primary transition-colors">Diário Alimentar</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Guia de Comunicação</a></li>
               </ul>
             </div>
