@@ -24,12 +24,14 @@ const Index = () => {
                 Ferramentas práticas, sem julgamentos, focadas no seu bem-estar.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Button variant="hero" size="xl" className="group">
-                  Comece sua jornada
-                  <Sparkles className="ml-2 group-hover:rotate-12 transition-transform" />
+                <Button variant="hero" size="xl" className="group" asChild>
+                  <a href="/mapa-texturas">
+                    Comece sua jornada
+                    <Sparkles className="ml-2 group-hover:rotate-12 transition-transform" />
+                  </a>
                 </Button>
-                <Button variant="soft" size="xl">
-                  Saiba mais
+                <Button variant="soft" size="xl" asChild>
+                  <a href="#features">Saiba mais</a>
                 </Button>
               </div>
             </div>
@@ -47,7 +49,7 @@ const Index = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 md:py-32">
+      <section id="features" className="py-20 md:py-32">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -168,7 +170,7 @@ const Index = () => {
             <div>
               <h3 className="text-lg font-semibold text-foreground mb-4">Recursos</h3>
               <ul className="space-y-2 text-muted-foreground">
-                <li><a href="#" className="hover:text-primary transition-colors">Mapa de Texturas</a></li>
+                <li><a href="/mapa-texturas" className="hover:text-primary transition-colors">Mapa de Texturas</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Diário Alimentar</a></li>
                 <li><a href="#" className="hover:text-primary transition-colors">Guia de Comunicação</a></li>
               </ul>
