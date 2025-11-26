@@ -14,18 +14,6 @@ O Diário Alimentar é uma aplicação que permite aos usuários registrar suas 
 - 🎨 **Interface Moderna**: Design responsivo e intuitivo com Tailwind CSS
 - 🌓 **Modo Escuro**: Suporte para tema claro e escuro
 
-## 🛠️ Tecnologias Utilizadas
-
-- **React 18** - Biblioteca JavaScript para construção de interfaces
-- **TypeScript** - Superset JavaScript com tipagem estática
-- **Vite** - Build tool moderna e rápida
-- **Tailwind CSS** - Framework CSS utility-first
-- **shadcn-ui** - Componentes acessíveis e customizáveis
-- **React Router** - Roteamento para aplicações React
-- **TanStack Query** - Gerenciamento de estado assíncrono
-- **Lucide React** - Biblioteca de ícones
-- **Recharts** - Biblioteca de gráficos para React
-
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
