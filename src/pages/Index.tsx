@@ -26,8 +26,14 @@ const Index = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button variant="hero" size="xl" className="group" asChild>
                   <a href="/mapa-texturas">
-                    Comece sua jornada
+                    Mapa de Texturas
                     <Sparkles className="ml-2 group-hover:rotate-12 transition-transform" />
+                  </a>
+                </Button>
+                <Button variant="hero" size="xl" className="group" asChild>
+                  <a href="/diario-alimentar">
+                    Diário Alimentar
+                    <BookOpen className="ml-2 group-hover:rotate-12 transition-transform" />
                   </a>
                 </Button>
                 <Button variant="soft" size="xl" asChild>
