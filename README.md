@@ -1,73 +1,150 @@
-# Welcome to your Lovable project
+# 🍽️ Diário Alimentar
 
-## Project info
+Um aplicativo web moderno e intuitivo para registro e acompanhamento de refeições diárias, desenvolvido com React e TypeScript.
 
-**URL**: https://lovable.dev/projects/f7818954-35d3-4710-ab8f-6020c2a90579
+## 📋 Sobre o Projeto
 
-## How can I edit this code?
+O Diário Alimentar é uma aplicação que permite aos usuários registrar suas refeições, acompanhar o progresso nutricional e monitorar a exposição a diferentes alimentos ao longo do tempo. Ideal para quem busca manter uma alimentação equilibrada e consciente.
 
-There are several ways of editing your application.
+## ✨ Funcionalidades
 
-**Use Lovable**
+- 📝 **Registro de Refeições**: Adicione e acompanhe suas refeições diárias
+- 📊 **Monitoramento Nutricional**: Visualize o progresso de calorias, proteínas, carboidratos e gorduras
+- 🎯 **Rastreamento de Exposição**: Acompanhe a frequência de consumo de diferentes alimentos
+- 🎨 **Interface Moderna**: Design responsivo e intuitivo com Tailwind CSS
+- 🌓 **Modo Escuro**: Suporte para tema claro e escuro
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/f7818954-35d3-4710-ab8f-6020c2a90579) and start prompting.
+## 🛠️ Tecnologias Utilizadas
 
-Changes made via Lovable will be committed automatically to this repo.
+- **React 18** - Biblioteca JavaScript para construção de interfaces
+- **TypeScript** - Superset JavaScript com tipagem estática
+- **Vite** - Build tool moderna e rápida
+- **Tailwind CSS** - Framework CSS utility-first
+- **shadcn-ui** - Componentes acessíveis e customizáveis
+- **React Router** - Roteamento para aplicações React
+- **TanStack Query** - Gerenciamento de estado assíncrono
+- **Lucide React** - Biblioteca de ícones
+- **Recharts** - Biblioteca de gráficos para React
 
-**Use your preferred IDE**
+## 🚀 Como Executar o Projeto
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Pré-requisitos
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js 18+ ou Bun
+- npm, yarn ou bun
 
-Follow these steps:
+### Instalação
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+1. Clone o repositório:
+```bash
 git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
 cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
 ```
 
-**Edit a file directly in GitHub**
+2. Instale as dependências:
+```bash
+npm install
+# ou
+yarn install
+# ou
+bun install
+```
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+3. Execute o projeto em modo de desenvolvimento:
+```bash
+npm run dev
+# ou
+yarn dev
+# ou
+bun dev
+```
 
-**Use GitHub Codespaces**
+4. Abra o navegador em `http://localhost:5173`
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 📦 Build para Produção
 
-## What technologies are used for this project?
+Para criar uma versão otimizada para produção:
 
-This project is built with:
+```bash
+npm run build
+# ou
+yarn build
+# ou
+bun run build
+```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Os arquivos otimizados serão gerados na pasta `dist/`.
 
-## How can I deploy this project?
+## 🎨 Estrutura do Projeto
 
-Simply open [Lovable](https://lovable.dev/projects/f7818954-35d3-4710-ab8f-6020c2a90579) and click on Share -> Publish.
+```
+src/
+├── assets/          # Imagens e recursos estáticos
+│   ├── foods/      # Imagens de alimentos
+│   └── hero-food.jpg
+├── components/      # Componentes reutilizáveis
+│   ├── ui/         # Componentes de interface base (shadcn-ui)
+│   ├── BenefitItem.tsx
+│   ├── ExposureTracker.tsx
+│   ├── FeatureCard.tsx
+│   ├── FilterButton.tsx
+│   ├── FoodCard.tsx
+│   ├── FoodIconButton.tsx
+│   ├── NavLink.tsx
+│   └── NutritionProgress.tsx
+├── hooks/          # React hooks customizados
+├── lib/            # Utilitários e funções auxiliares
+├── pages/          # Páginas da aplicação
+│   ├── DiarioAlimentar.tsx
+│   └── NotFound.tsx
+└── main.tsx        # Ponto de entrada da aplicação
+```
 
-## Can I connect a custom domain to my Lovable project?
+## 🎯 Como Editar o Projeto
 
-Yes, you can!
+### Use Lovable (Recomendado)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Visite o [projeto no Lovable](https://lovable.dev/projects/f7818954-35d3-4710-ab8f-6020c2a90579) e comece a fazer alterações através de prompts em linguagem natural. As mudanças serão automaticamente commitadas neste repositório.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+### Use seu IDE Favorito
+
+Clone o repositório e faça push das alterações. As mudanças serão refletidas automaticamente no Lovable.
+
+### Use GitHub Codespaces
+
+- Clique no botão "Code" (verde) no topo da página
+- Selecione a aba "Codespaces"
+- Clique em "New codespace" para criar um ambiente de desenvolvimento na nuvem
+
+## 🚀 Deploy
+
+Para fazer deploy do projeto:
+
+1. Abra o [projeto no Lovable](https://lovable.dev/projects/f7818954-35d3-4710-ab8f-6020c2a90579)
+2. Clique em Share → Publish
+3. Seu app estará disponível em poucos segundos
+
+### Domínio Customizado
+
+Você pode conectar um domínio personalizado em Project > Settings > Domains.
+
+Leia mais: [Configurando domínio customizado](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+## 🤝 Contribuindo
+
+Contribuições são sempre bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+
+## 🔗 Links Úteis
+
+- [Documentação do React](https://react.dev)
+- [Documentação do Vite](https://vitejs.dev)
+- [Documentação do Tailwind CSS](https://tailwindcss.com)
+- [Documentação do Lovable](https://docs.lovable.dev)
+
+---
+
+Desenvolvido com ❤️ usando [Lovable](https://lovable.dev)
