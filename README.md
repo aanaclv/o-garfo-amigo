@@ -48,5 +48,3 @@ bun dev
 ```
 
 4. Abra o navegador em `http://localhost:5173`
-
-Desenvolvido com ❤️ usando [Lovable](https://lovable.dev)
